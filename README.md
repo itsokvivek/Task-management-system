@@ -23,3 +23,14 @@ Build a real-world task management system while learning:
 - [ ] Authentication
 - [ ] Docker
 - [ ] Deployment
+## schema for the Tasks module.
+| Column          | Type         | Description        |
+| --------------- | ------------ | ------------------ |
+| TaskNumber      | INT (PK)     | Unique Task ID     |
+| TaskName        | VARCHAR(200) | Task title         |
+| TaskDescription | VARCHAR(500) | Task details       |
+| ProjectName     | VARCHAR(200) | Associated project |
+| Department      | VARCHAR(200) | Department name    |
+| Priority        | VARCHAR(100) | Task priority      |
+| ApprovedByName  | VARCHAR(50)  | Approver           |
+| AssigneeName    | VARCHAR(50)  | Assigned user      |
